@@ -2,7 +2,7 @@ from random import choice
 
 templates = ['P', 'Z', 'V', 'ZV', 'VZ', 'VZVZVZVZVZV', 'ZZZZVVZVVZVZVZVZV', 'ZVVZVZVVVZVZZVVZVZZV', 'ZVVZZVVZ']
 taskData = []
-print(choice(templates))
+
 for _ in range(1_000_000):
     taskData.append(choice(templates))
 
